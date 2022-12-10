@@ -32,3 +32,4 @@ Route.group(() => {
 
 Route.get('/api/events/:id/presences', 'EventsController.presences')
 Route.get('/api/events/:id/generate', 'EventsController.generateQrCode')
+Route.post('/api/presences/form', 'PresencesController.formStore')
